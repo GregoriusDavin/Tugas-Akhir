@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.TugasAkhir">
+  <grid id="27dc6" binding="panelta" layout-manager="GridLayoutManager" row-count="10" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1153" height="476"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ff5bf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="936" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Masukan apa yang ingin anda roll "/>
+        </properties>
+      </component>
+      <component id="15826" class="javax.swing.JTextField" binding="item2">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="936" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Font"/>
+          <foreground color="-6815557"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="10e94" class="javax.swing.JTextField" binding="item3">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="936" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Impact" size="12"/>
+          <foreground color="-4480000"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="177ad" class="javax.swing.JLabel" binding="labelchance">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rarity: "/>
+        </properties>
+      </component>
+      <component id="54f03" class="javax.swing.JTextField" binding="item4">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="936" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="SF Old Republic" size="14" style="1"/>
+          <foreground color="-16772933"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="97a8d" class="javax.swing.JLabel" binding="extremerare">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="68" height="25"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-4520448"/>
+          <text value="Extreme Rare"/>
+        </properties>
+      </component>
+      <component id="cad81" class="javax.swing.JLabel" binding="superrare">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-6815557"/>
+          <text value="Super Rare"/>
+        </properties>
+      </component>
+      <component id="ea0af" class="javax.swing.JLabel" binding="rare">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4480000"/>
+          <text value="Rare"/>
+        </properties>
+      </component>
+      <component id="533fd" class="javax.swing.JLabel" binding="uncommon">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16772933"/>
+          <text value="Uncommon"/>
+        </properties>
+      </component>
+      <component id="378df" class="javax.swing.JLabel" binding="common">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-12797184"/>
+          <text value="Common"/>
+        </properties>
+      </component>
+      <component id="3b63f" class="javax.swing.JButton" binding="cekchance">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Check Chances"/>
+        </properties>
+      </component>
+      <component id="1415f" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font name="Unispace" size="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ae181" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="466" height="114"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <text value="GACHA SIMULATOR"/>
+        </properties>
+      </component>
+      <component id="c414c" class="javax.swing.JButton" binding="STARTButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="936" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="START!"/>
+        </properties>
+      </component>
+      <component id="5ee" class="javax.swing.JTextField" binding="item1">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="936" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Snickers" size="16"/>
+          <foreground color="-4520448"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bd458" class="javax.swing.JTextField" binding="item5">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="936" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="SansSerif" style="1"/>
+          <foreground color="-12797184"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b463b" class="javax.swing.JButton" binding="inventoryButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Inventory"/>
+        </properties>
+      </component>
+      <component id="e508a" class="javax.swing.JLabel" binding="labelitem">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="936" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="ITEM (*required)"/>
+        </properties>
+      </component>
+      <component id="20e8f" class="javax.swing.JButton" binding="clearInventoryButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Clear Inventory"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
